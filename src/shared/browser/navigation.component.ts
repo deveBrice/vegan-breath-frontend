@@ -103,6 +103,12 @@ export class NavigationComponent implements OnInit {
     if (event.target.textContent === 'Voir liste des restaurants'){
       this.router.navigate(['/restaurantList']);
     }
+    if (event.target.textContent === 'Voir liste des magasins'){
+      this.router.navigate(['/storeList']);
+    }
+    if (event.target.textContent === 'Voir liste des recettes'){
+      this.router.navigate(['/recepeesList']);
+    }
   }
 
 

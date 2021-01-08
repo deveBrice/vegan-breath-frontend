@@ -11,9 +11,17 @@ export class CommonService {
   public element: string;
   public itemDetail: object;
   public searchInput: string;
+  public  idResto;
 
   constructor(private httpClient: HttpClient) { }
 
+  getIdResto() {
+    return this.idResto;
+  }
+
+  setIdResto(idResto){
+    this.idResto = idResto;
+  }
   getListData() {
     return this.listData;
   }
