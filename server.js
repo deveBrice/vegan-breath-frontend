@@ -2,11 +2,10 @@ const express = require('express');
 
 const app = express();
 
-app.use(express.static('./dist/breath-vegan'));
+app.use(express.static('./dist/breathVeganFront'));
 
 app.get('/*', function (req, res) {
-  res.sendFile('index.html', { root: 'dist/breath-vegan' }
-  );
+  res.sendFile('index.html', { root: 'dist/breathVeganFront' });
 });
 
 app.listen(process.env.PORT || 8080);
