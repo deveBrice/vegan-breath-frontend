@@ -12,6 +12,7 @@ import { FavoritesListComponent } from '../app/modules/generic-components-module
 import {RestaurantsListComponent} from './modules/restaurants/restaurants-list/restaurants-list.component';
 import {BodyComponent} from './modules/home/body/body.component';
 import {StoreComponent} from "./modules/store/store.component";
+import {RestoDetailComponent} from "./modules/resto-detail/resto-detail.component";
 
 
 
@@ -28,6 +29,10 @@ const routes: Routes = [
   {
     path: 'storeList',
     component: StoreComponent
+  },
+  {
+    path: 'restaurantDetails',
+    component: RestoDetailComponent
   },
 
   {
