@@ -27,8 +27,11 @@ itemDetail: object;
 
   }
 
-  showDetails(vegan: any): void {
-    this.restaurantService.getById(vegan.id).subscribe(
+  showDetails(vegan): void {
+    this.router.navigate(['/restaurantDetails']);
+    this.commonService.setIdResto(vegan.id);
+
+   /* this.restaurantService.getById(vegan.id).subscribe(
       (data) => {
         this.itemDetail = data;
         this.commonService.setItemDetail(this.itemDetail);
@@ -38,8 +41,8 @@ itemDetail: object;
     (error) => {
         console.log('erreur sur details', error);
         window.alert('impossible de renvoyer les details pour ce restaurant');
-    });
-    this.router.navigate([`/details`, vegan.id, vegan.title.replace(/ /g, '')]);
+    });*/
+    // this.router.navigate([`/details`, vegan.id, vegan.title.replace(/ /g, '')]);
   }
 
   getSettingsFavoris(){
