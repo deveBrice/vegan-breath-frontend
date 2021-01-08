@@ -1,0 +1,19 @@
+.mat-card{
+  margin-top: 30px;
+  background: aliceblue;
+  margin-left: 80px;
+  margin-right: 80px;
+  border: 5px solid #439c1d;
+  border-radius: 25px
+
+}
+
+.mat-display-1{
+  text-align: center;
+  margin-top: 20px;
+  text-decoration-color: #439c1d;
+}
+
+.image{
+  width: 250px;
+}

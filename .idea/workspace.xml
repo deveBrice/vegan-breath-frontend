@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33d8532f-5a83-4494-b528-d48b0411627c" name="Default Changelist" comment="">
+    <list default="true" id="09537323-5404-45ae-9459-fd4e5f4bb8ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-=======
-      <change beforePath="$PROJECT_DIR$/angular/breathVeganFront/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular/breathVeganFront/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/breathVeganFront/src/app/apiServices/form-control.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/breathVeganFront/src/app/apiServices/form-control.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/breathVeganFront/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/breathVeganFront/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/breathVeganFront/src/app/modules/registration/log-in/log-in.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/breathVeganFront/src/app/modules/registration/log-in/log-in.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/breathVeganFront/src/app/modules/registration/log-in/log-in.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/breathVeganFront/src/app/modules/registration/log-in/log-in.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/breathVeganFront/src/app/modules/registration/signup/signup.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular/breathVeganFront/src/app/modules/registration/signup/signup.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular/breathVeganFront/src/app/modules/registration/signup/signup.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular/breathVeganFront/src/app/modules/registration/signup/signup.component.ts" afterDir="false" />
->>>>>>> dev
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/generic-components-module/vegan-cards/vegan-cards.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/generic-components-module/vegan-cards/vegan-cards.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/generic-components-module/vegan-details/vegan-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/generic-components-module/vegan-details/vegan-details.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/generic-components-module/vegan-details/vegan-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/generic-components-module/vegan-details/vegan-details.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/home/body/body.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/home/body/body.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/home/body/body.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/home/body/body.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/popup/pop-up/pop-up.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/popup/pop-up/pop-up.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/registration/log-in/log-in.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/registration/log-in/log-in.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/registration/log-in/log-in.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/registration/log-in/log-in.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/registration/signup/signup.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/registration/signup/signup.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/browser/navigation.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/browser/navigation.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/browser/navigation.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/browser/navigation.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +32,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1mOcd7h6T7QMTu99DitDHNDpaGR" />
+  <component name="ProjectId" id="1mlVdyew4LjZInynQhZ0uDSJUbR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,17 +48,19 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="33d8532f-5a83-4494-b528-d48b0411627c" name="Default Changelist" comment="" />
-      <created>1609368185173</created>
+      <changelist id="09537323-5404-45ae-9459-fd4e5f4bb8ae" name="Default Changelist" comment="" />
+      <created>1610025553710</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1609368185173</updated>
-      <workItem from="1609368188851" duration="2064000" />
+      <updated>1610025553710</updated>
+      <workItem from="1610025556030" duration="18343000" />
+      <workItem from="1610068265527" duration="12068000" />
     </task>
     <servers />
   </component>
@@ -65,19 +72,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="dev" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>

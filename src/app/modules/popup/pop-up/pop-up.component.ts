@@ -47,7 +47,7 @@ export class PopUpComponent implements OnInit, OnChanges{
   }
 
   createRestaurant(): void {
-   this.elementCreation.picture = 'https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/vegetarian_diet_slideshow/getty_rf_photo_of_veggie_stir-fry.jpg';
+   // this.elementCreation.picture = 'https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/vegetarian_diet_slideshow/getty_rf_photo_of_veggie_stir-fry.jpg';
     this.elementCreation.email = 'dd@admin.com';
     if (this.formControlService.addingItemForm.valid) {
         // tslint:disable-next-line:max-line-length

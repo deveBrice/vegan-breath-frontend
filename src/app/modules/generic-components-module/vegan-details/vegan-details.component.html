@@ -1,15 +1,15 @@
-<div>
+<div *ngFor="let detail of detailData">
   <div>
     <mat-card>
       <mat-card-header >
         <div mat-card-avatar class="example-header-image"></div>
-        <mat-card-title >titre</mat-card-title>
+        <mat-card-title >{{detail.title}}</mat-card-title>
 
       </mat-card-header>
-      <img mat-card-image class="image" src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+      <img mat-card-image class="image" src="{{detail.picture}}" alt="Photo of a Shiba Inu">
       <mat-card-content>
         <p>
-          ici la description
+          {{detail.description}}
         </p>
       </mat-card-content>
     </mat-card>
@@ -18,7 +18,7 @@
 
   <div>
       <mat-card-content>
-        ici la description
+        {{detail.description}}
       </mat-card-content>
   </div>
 

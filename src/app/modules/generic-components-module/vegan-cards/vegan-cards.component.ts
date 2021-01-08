@@ -15,7 +15,7 @@ export class VeganCardsComponent implements OnInit {
 @Input() veganInformations;
 favoriteSetting: any;
 favoriteState: boolean;
-itemDetail: object;
+itemDetail: Object;
 
   constructor(private router: Router,
               private veganDetailsService: VeganDetailsService,
@@ -28,6 +28,7 @@ itemDetail: object;
   }
 
   showDetails(vegan: any): void {
+    console.log(vegan);
     this.restaurantService.getById(vegan.id).subscribe(
       (data) => {
         this.itemDetail = data;

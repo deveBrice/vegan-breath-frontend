@@ -17,8 +17,8 @@
           <button mat-menu-item class="{{link.style}}" *ngIf="link.label === 'Accueil' || link.label === 'Connexion'" routerLink="link.path">{{link.label}}</button>
           <button mat-menu-item class="{{link.style}}" [matMenuTriggerFor]="menuSmallScreen" *ngIf="link.label !== 'Accueil' && link.label !== 'Connexion'">{{link.label}}</button>
         <mat-menu class="custom-mat-menu" #menuSmallScreen="matMenu" yPosition="below">
-          <button mat-menu-item [routerLink]="link.subPath" (click)= onAdd($event)>{{link.subLabel}}</button>
-          <button mat-menu-item [routerLink]="link.subPath2">{{link.subLabel2}}</button>
+          <button mat-menu-item [routerLink]="link.subPath" (click)= onAdd($event)>{{link.subLabel1}}</button>
+          <button mat-menu-item [routerLink]="link.subPath2" (click)="onList($event)">{{link.subLabel2}}</button>
         </mat-menu>
       </div>
     </mat-menu>

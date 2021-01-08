@@ -11,6 +11,7 @@ import { VeganDetailsComponent } from '../app/modules/generic-components-module/
 import { FavoritesListComponent } from '../app/modules/generic-components-module/favorites-list/favorites-list.component';
 import {RestaurantsListComponent} from './modules/restaurants/restaurants-list/restaurants-list.component';
 import {BodyComponent} from './modules/home/body/body.component';
+import {StoreComponent} from './modules/store/store.component';
 
 
 
@@ -23,6 +24,10 @@ const routes: Routes = [
   {
     path: '',
     component: BodyComponent,
+  },
+  {
+    path: 'storeList',
+    component: StoreComponent
   },
 
   {

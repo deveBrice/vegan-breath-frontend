@@ -29,7 +29,9 @@ export class SignupComponent implements OnInit {
   }
 
 
-  signup(username: string, email: string, password1: string, password2: string) {
+  signup (username: string, email: string, password1: string, password2: string) {
+
+    if (this.formControlService.signUpForm.valid) {
     this.authService.signup(username, email, password1, password2).subscribe(
       (response) => {
         window.alert('Welcome, you can now log in');
@@ -48,6 +50,7 @@ export class SignupComponent implements OnInit {
         }
       }
     );
+  }
   }
 
 }
