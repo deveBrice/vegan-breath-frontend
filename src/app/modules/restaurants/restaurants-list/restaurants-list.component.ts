@@ -18,12 +18,11 @@ export class RestaurantsListComponent implements OnInit {
       (data) => {
         this.restaurantList = data;
         console.log(this.restaurantList);
-      }
-    ),
+      },
       (error) => {
       console.log(error);
-      window.alert('unable to show restaurants');
-      };
+      window.alert('You must be connected to see restaurants');
+      });
   }
 
 }
