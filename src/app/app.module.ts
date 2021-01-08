@@ -35,6 +35,8 @@ import { MatMenuModule } from '@angular/material/menu';
 import { from } from 'rxjs';
 import { PopUpComponent } from './modules/popup/pop-up/pop-up.component';
 import {RestaurantsListComponent} from "./modules/restaurants/restaurants-list/restaurants-list.component";
+import { StoreComponent } from './modules/store/store.component';
+import { RestoDetailComponent } from './modules/resto-detail/resto-detail.component';
 
 
 // import { BodyComponent } from './body/body.component';
@@ -56,7 +58,9 @@ import {RestaurantsListComponent} from "./modules/restaurants/restaurants-list/r
     VeganCardsComponent,
     PopUpComponent,
     BodyComponent,
-    RestaurantsListComponent
+    RestaurantsListComponent,
+    StoreComponent,
+    RestoDetailComponent
   ],
   imports: [
     AppRoutingModule,

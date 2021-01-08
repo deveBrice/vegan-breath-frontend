@@ -1,0 +1,28 @@
+<div *ngFor="let detail of detailRestaurant">
+  <div>
+    <mat-card>
+      <mat-card-header >
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title >{{detail.title}}</mat-card-title>
+
+      </mat-card-header>
+      <img mat-card-image class="image" src="{{detail.picture}}">
+      <mat-card-content>
+        <p>
+          {{detail.title}}
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  <mat-divider></mat-divider><br>
+
+  <div>
+    <mat-card-content>
+      {{detail.description}}
+    </mat-card-content>
+  </div>
+
+  <div   fxLayout="row" fxLayoutAlign="center center" class="image">
+    <button mat-raised-button (click)="printPage()"><mat-icon>print</mat-icon>Imprimer</button>
+    <button mat-raised-button><mat-icon>share</mat-icon>Partager</button>
+  </div>

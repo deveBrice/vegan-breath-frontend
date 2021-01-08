@@ -1,0 +1,12 @@
+<h1 class="mat-display-1">Toutes les informations sur nos magasins </h1>
+<div *ngFor="let detail of storeList">
+  <mat-card div fxLayout="row" fxLayoutAlign="space-evenly center" class="mat-card">
+    <div fxFlex="20">
+      <img class="image" src="{{detail.picture}}">
+    </div>
+    <div fxFlex="30">
+      <h1>{{detail.title}}</h1>
+      {{detail.description}}
+    </div>
+  </mat-card>
+</div>
